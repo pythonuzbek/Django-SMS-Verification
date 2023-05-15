@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "django-sms-verificationa"
+version = "0.1.0"
+description = ""
+authors = ["nusratullo2004 <122892486+nusratullo2004@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "django_sms_verificationa"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^4.2.1"
+twilio = "^8.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
